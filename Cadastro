@@ -22,7 +22,7 @@ def cadastrar():
                 navegador = p.chromium.launch(headless=False)
                 pagina = navegador.new_page()
                 try:
-                    pagina.goto("https://sei.rj.gov.br/sip/login.php?sigla_orgao_sistema=ERJ&sigla_sistema=SIP")
+                    pagina.goto("LINK")
                     # preencha os detalhes de login
                     pagina.fill('xpath=/html/body/div[1]/div/div/form/div/div/div/div/div/div/div[2]/input',
                                 "USUÁRIO")
@@ -74,7 +74,7 @@ def cadastrar():
                 navegador = p.chromium.launch(headless=False)
                 pagina = navegador.new_page()
                 try:
-                    pagina.goto("https://admin2.webmail.rj.gov.br:9071/zimbraAdmin/")
+                    pagina.goto("LINK")
                     pagina.fill('xpath=/html/body/div/div[5]/div[1]/div[1]/form/table[1]/tbody/tr[4]/td[2]/input',
                                 "USUÁRIO")
                     pagina.fill('xpath=/html/body/div/div[5]/div[1]/div[1]/form/table[1]/tbody/tr[5]/td[2]/input',
