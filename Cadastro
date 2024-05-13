@@ -29,7 +29,7 @@ def cadastrar():
                     pagina.fill('xpath=/html/body/div[1]/div/div/form/div/div/div/div/div/div/div[3]/span[2]/input[2]',
                                 "SENHA*")
                     pagina.select_option('xpath=/html/body/div[1]/div/div/form/div/div/div/div/div/div/div[4]/select',
-                                         "SECID")
+                                         "OBJETO A SER SELECIONADO")
                     pagina.click('xpath=/html/body/div[1]/div/div/form/div/div/div/div/div/div/div[5]/button')
 
                     pagina.click('xpath=/html/body/div[1]/div/div[1]/div/ul/li[4]/a/span')
