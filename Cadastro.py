@@ -1,9 +1,3 @@
-from tkinter import Tk, Label, Entry, Button, ttk
-from playwright.sync_api import sync_playwright
-from bs4 import BeautifulSoup
-import threading
-import time
-
 
 def cadastrar():
     # Função chamada quando o botão é clicado
