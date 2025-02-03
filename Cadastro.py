@@ -53,7 +53,7 @@ def cadastrar():
                         status_label.config(text="Usuário cadastrado com sucesso!")
                         pagina.click('xpath=/html/body/div[1]/div/div[1]/div/ul/li[4]/ul/li[1]/a/span')
                         pagina.click('xpath=/html/body/div[1]/div/div[2]/form/div[2]/select')
-                        pagina.select_option('xpath=/html/body/div[1]/div/div[2]/form/div[2]/select', 'SECID')
+                        pagina.select_option('xpath=/html/body/div[1]/div/div[2]/form/div[2]/select', 'USUÁRIO')
                         pagina.fill('xpath=/html/body/div[1]/div/div[2]/form/div[2]/input[1]', sigla)
                         pagina.fill('xpath=/html/body/div[1]/div/div[2]/form/div[2]/input[2]', nome_completo)
                         pagina.fill('xpath=/html/body/div[1]/div/div[2]/form/div[2]/input[6]', email)
